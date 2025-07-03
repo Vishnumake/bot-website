@@ -1,0 +1,11 @@
+.background {
+    background: url('../images/Blogs/banner.png');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+.banner-content{
+    position:absolute;
+    bottom:40px;
+    left:40px;
+}
