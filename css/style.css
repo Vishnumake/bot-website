@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* font-family: ; */
+}
+
+:root{
+    --fs-12:12px;
+    --fs-12:12px;
+    --fs-12:12px;
+    --fs-12:12px;
+    --fs-12:12px;
+    --fs-12:12px;
+    --fs-12:12px;
+    --text-green:green;
+    --text-green:green;
+    --text-green:green;
+    --text-green:green;
+    --text-green:green;
+    --bg-green:green;
+    --bg-green:green;
+    --bg-green:green;
+    --bg-green:green;
+    --bg-green:green;
+    --fw-400:400;
+    --fw-500:500;
+    --fw-600:600;
+    --fw-700:700;
+    --fw-800:800;
+    --fw-900:900;
+}
+
+
