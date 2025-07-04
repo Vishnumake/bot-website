@@ -1,0 +1,6 @@
+.background {
+    background: url('../images/About/Banner.png');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
