@@ -4,3 +4,9 @@
     background-position: center;
     height: 70vh;
 }
+.mission {
+    background: url('../images/About/image\ 106.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
