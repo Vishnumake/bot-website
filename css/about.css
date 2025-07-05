@@ -8,5 +8,16 @@
     background: url('../images/About/image\ 106.png');
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: auto;
 }
+  .mission-icon {
+      width: 25px;
+      height: 25px;
+    }
+
+    .tiruvalluvar{
+        background: url(../images/About/Thiruvaluvar.png);
+        height:60vh;
+        background-size: cover;
+    background-position: center;
+    }
