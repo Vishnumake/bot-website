@@ -32,4 +32,11 @@
     --fw-400:700; /* Bold */
 }
 
+.buiz_logo{
+    width:25%;
+}
+
+.text-primary{
+    color:var(--text-primary);
+}
 
