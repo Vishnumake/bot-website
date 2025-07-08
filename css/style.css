@@ -39,4 +39,10 @@
 .text-primary{
     color:var(--text-primary);
 }
+.text-secondary{
+    color:var(--text-primary);
+}
 
+.bg-primary{
+    background-color: var(--text-primary) !important;
+}
