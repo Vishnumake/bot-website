@@ -1,3 +1,21 @@
+/* best section start */
+.btn-highlight {
+  background-color: #d2ff00;
+  color: #000;
+  font-weight: 500;
+  border-radius: 30px;
+  padding: 10px 24px;
+  font-size: 1rem;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+/* best section end */
+
+
+
+
+
+
 /* Wonders section start */
 .wonders-section {
   background-color: #f8f9fa;
@@ -7,7 +25,7 @@
   font-weight: 600;
 }
 
-.wonders-section h2 span{
+.wonders-section h2 span {
   font-size: 2.5rem;
   font-weight: 700;
 }
@@ -92,7 +110,7 @@
   border-radius: 50%;
   padding: 6px 8px;
   font-size: 1rem;
-  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   color: #000;
   z-index: 2;
   transition: transform 0.3s ease;
@@ -129,49 +147,215 @@
   font-size: 1.1rem;
   font-weight: bold;
 }
-
-
 /* Wonders section end */
 
 
 
 
 
+
 /* Hightlight start */
-
-.highlight-section {
-  background-color: #f8f9fa;
+.famous-food img {
+  height: 250px !important;
 }
 
-.highlight-text h2 {
-  font-size: 2rem;
+.famous-events img {
+  height: 350px !important;
+}
+/* Hightlight end */
+
+
+
+
+
+
+/* Tourist hub section start */
+
+/* Tourist Hubs Section */
+.tourist-hubs-section .nav-pills .nav-link {
+  border-radius: 50px;
+  padding: 6px 16px;
   color: #000;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  font-weight: 500;
+  transition: 0.3s;
 }
-
-.highlight-text p {
-  font-size: 1rem;
-  line-height: 1.6;
-}
-
-.btn-highlight {
+.tourist-hubs-section .nav-pills .nav-link.active {
   background-color: #d2ff00;
   color: #000;
+  border-color: transparent;
+}
+
+.btn-pill {
+  border-radius: 50px;
+  padding: 8px 20px;
   font-weight: 500;
-  border-radius: 30px;
-  padding: 10px 24px;
+}
+
+.btn-circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-size: 1rem;
+  background-color: #d2ff00;
   border: none;
   transition: background-color 0.3s ease;
 }
 
-.btn-highlight:hover {
+.btn-circle:hover {
+  background-color: #c2ef00;
+}
+
+.bg-lime {
+  background-color: #d2ff00 !important;
+}
+
+/* Lime Color Utility */
+.text-lime {
+  color: #d2ff00 !important;
+}
+
+/* Tourist Card */
+.tourist-card {
+  border: none;
+  transition: transform 0.3s ease;
+}
+.tourist-card:hover {
+  transform: translateY(-5px);
+}
+
+.tourist-card .btn-lime {
+  background-color: #d2ff00;
+  color: #000;
+  width: 40px;
+  height: 40px;
+  font-size: 1rem;
+  border: none;
+  transition: 0.3s;
+}
+.tourist-card .btn-lime:hover {
+  background-color: #c2ef00;
+}
+
+/* Badge styling */
+.tourist-card .badge {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.tourist-card .btn.btn-light {
+  width: 34px;
+  height: 34px;
+  font-size: 1rem;
+}
+/* Tourist hub section end */
+
+
+
+
+/* Most visited spots start */
+.most-visited-section h2 {
+  color: #fff;
+}
+
+.text-lime {
+  color: #d2ff00 !important;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+/* Most visited spots end */
+
+
+
+/* Social media section start */
+
+.social-media-section h3 {
+  font-size: 1.75rem;
+  line-height: 1.4;
+}
+
+.btn-lime {
+  background-color: #d2ff00;
+  color: #000;
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+.btn-lime:hover {
   background-color: #c2ef00;
 }
 
 .object-fit-cover {
   object-fit: cover;
-  height: 100%;
 }
 
 
-/* Hightlight end */
+/* Social media section end */
+
+
+
+/* Explore Tamil Nadu Background Section start*/
+.explore-tn-section {
+  height: 80vh;
+  background: url('../images/Home/experience-your-travel-with-us-bg.png') no-repeat center center;
+  background-size: cover;
+  min-height: 420px;
+  position: relative;
+  z-index: 1;
+}
+
+
+.explore-tn-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+.explore-tn-section h2 {
+  font-size: 2.25rem;
+}
+
+.explore-tn-section p {
+  font-size: 1.125rem;
+}
+
+@media (max-width: 768px) {
+  .explore-tn-section h2 {
+    font-size: 1.75rem;
+  }
+  
+  .explore-tn-section p {
+    font-size: 1rem;
+  }
+}
+/* Explore Tamil Nadu Background Section end*/
+
+
+
+/* Uncover Tamil Nadu Section start*/
+.bg-lime {
+  background-color: #d2ff00 !important;
+}
+
+.uncover-tn-section h2 {
+  font-size: 2.25rem;
+}
+
+.uncover-tn-section .btn-pill {
+  border-radius: 50px;
+  padding: 10px 24px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+/* Uncover Tamil Nadu Section end*/
+
