@@ -32,6 +32,29 @@
     --fw-400:700; /* Bold */
 }
 
+
+/* Navbar start */
+.text-lime {
+  color: #d2ff00 !important;
+}
+.nav-link {
+  padding: 0.5rem 1rem;
+}
+.input-group .form-control:focus,
+.form-select:focus {
+  box-shadow: none;
+  border-color: #ccc;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+/* Navbar end */
+
+
+
 .buiz_logo{
     width:25%;
 }
